@@ -22,6 +22,7 @@ void quick_sort(int *array, size_t size)
  * @array: the pointer to array of integers.
  * @start: the start's index.
  * @end: the end's index.
+ * @size: the size of array.
  * Return: void.
 */
 void sort_halves(int *array, int start, int end, size_t size)
@@ -44,7 +45,6 @@ void sort_halves(int *array, int start, int end, size_t size)
  * @array: the pointer of array.
  * @start: start's index.
  * @end: end's index.
- * @size: the length of array.
  * Return: the pivot index.
 */
 int partition(int *array, int start, int end)
